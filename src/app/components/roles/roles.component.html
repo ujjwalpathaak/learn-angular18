@@ -1,19 +1,7 @@
-<!-- <p>roles works!</p>
-<p>{{firstName}}</p>
-<p>{{currentDate}}</p>
-<p>{{version}}</p>
-
-<ul>
-    <li *ngFor="let role of roleList">
-        {{role.role}}
-    </li>
-</ul>
-<div>
-    <select>
-        <option *ngFor="let role of roleList" [value]="role.roleId">{{role.role}}</option>
-    </select>
-</div> -->
 <div class="row">
+    @if(!isLoaded){
+    <app-loader></app-loader>
+    }@else{
     <div class="col-12">
         <table class="table table-bordered">
             <thead>
@@ -30,4 +18,5 @@
             </tbody>
         </table>
     </div>
+    }
 </div>

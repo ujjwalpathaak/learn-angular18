@@ -1,2 +1,17 @@
-<h1>Angular</h1>
-<app-master></app-master>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <h1>Angular18 Tutorial</h1>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a class="nav-link" routerLink="master" routerLinkActive="font-bold">Master</a></li>
+                <li><a class="nav-link" routerLink="employee" routerLinkActive="font-bold">Employee</a></li>
+                <li><a class="nav-link" routerLink="client" routerLinkActive="font-bold">Client</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container pt-1">
+        <router-outlet></router-outlet>
+    </div>
+</body>

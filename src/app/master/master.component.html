@@ -1,12 +1,13 @@
-<p>master works!</p>
 <button type="button" class="btn" [ngClass]="currentComponent == 'Roles' ? 'btn-success':'btn-primary'"
     (click)="changeComponent('Roles')">Roles</button>
 <button type="button" class="btn" [ngClass]="currentComponent == 'Designation' ? 'btn-success':'btn-primary'"
     (click)="changeComponent('Designation')">Designation</button>
 
 <div *ngIf="currentComponent == 'Roles'">
+    <h1>Roles</h1>
     <app-roles></app-roles>
 </div>
 <div *ngIf=" currentComponent=='Designation'">
+    <h1>Designations</h1>
     <app-designation></app-designation>
 </div>

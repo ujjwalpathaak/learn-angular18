@@ -1,1 +1,21 @@
-<p>designation works!</p>
+@if(!isLoaded){
+<app-loader></app-loader>
+}@else{
+<div class="row">
+    <div class="col-12">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Role Id</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let desig of designations; let index = index">
+                    <td>{{index + 1}}</td>
+                    <td>{{desig.designation}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>}
