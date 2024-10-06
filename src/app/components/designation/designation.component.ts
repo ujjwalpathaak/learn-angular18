@@ -3,7 +3,7 @@ import { MasterService } from "../../services/master.service";
 import { IDesignations } from "../../model/interface/designations";
 import { IAPIResponse } from "../../model/interface/response";
 import { CommonModule } from "@angular/common";
-import { LoaderComponent } from "../../loader/loader.component";
+import { LoaderComponent } from "../loader/loader.component";
 
 @Component({
   selector: "app-designation",

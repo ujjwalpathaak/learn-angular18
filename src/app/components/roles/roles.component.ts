@@ -2,7 +2,7 @@ import { HttpClient } from "@angular/common/http";
 import { Component, inject, OnInit } from "@angular/core";
 import { IRole } from "../../model/interface/roles";
 import { CommonModule } from "@angular/common";
-import { LoaderComponent } from "../../loader/loader.component";
+import { LoaderComponent } from "../loader/loader.component";
 
 @Component({
   selector: "app-roles",

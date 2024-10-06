@@ -3,7 +3,7 @@ import { Client } from "../model/class/client";
 import { FormsModule } from "@angular/forms";
 import { ClientService } from "../services/client.service";
 import { IAPIResponse } from "../model/interface/response";
-import { LoaderComponent } from "../loader/loader.component";
+import { LoaderComponent } from "../components/loader/loader.component";
 
 @Component({
   selector: "app-client",
