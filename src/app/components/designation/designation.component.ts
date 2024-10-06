@@ -1,7 +1,7 @@
 import { Component, inject, OnInit } from "@angular/core";
 import { MasterService } from "../../services/master.service";
-import { IDesignations } from "../../model/class/interface/designations";
-import { IAPIResponse } from "../../model/class/interface/response";
+import { IDesignations } from "../../model/interface/designations";
+import { IAPIResponse } from "../../model/interface/response";
 import { CommonModule } from "@angular/common";
 import { LoaderComponent } from "../../loader/loader.component";
 

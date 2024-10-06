@@ -1,6 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { Component, inject, OnInit } from "@angular/core";
-import { IRole } from "../../model/class/interface/roles";
+import { IRole } from "../../model/interface/roles";
 import { CommonModule } from "@angular/common";
 import { LoaderComponent } from "../../loader/loader.component";
 
